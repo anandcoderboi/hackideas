@@ -1,8 +1,40 @@
-# React + Vite
+# Hack Ideas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hack Ideas is a web application for sharing and upvoting coding challenges.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the App](#running-the-app)
+- [Usage](#usage)
+  - [Adding a Challenge](#adding-a-challenge)
+  - [Voting](#voting)
+- [Folder Structure](#folder-structure)
+- [Tech Stack](#tech-stack)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- View a list of coding challenges
+- Add new challenges
+- Upvote challenges
+- Sort challenges by date or votes
+- User authentication with employee ID
+- Unique voting per user
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js: [Install Node.js](https://nodejs.org/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/hack-ideas.git
