@@ -9,13 +9,10 @@ Hack Ideas is a web application for sharing and upvoting coding challenges.
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the App](#running-the-app)
-- [Usage](#usage)
-  - [Adding a Challenge](#adding-a-challenge)
-  - [Voting](#voting)
+
 - [Folder Structure](#folder-structure)
 - [Tech Stack](#tech-stack)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -38,3 +35,17 @@ Hack Ideas is a web application for sharing and upvoting coding challenges.
 
    ```bash
    git clone https://github.com/your-username/hack-ideas.git
+
+   ### Running the App
+
+2. Start the development server:
+
+```bash
+npm run dev
+
+
+Tech Stack
+React
+Vite
+React Router
+Local Storage (for challenges and user authentication)
