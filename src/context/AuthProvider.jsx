@@ -1,4 +1,4 @@
-// AuthContext.js
+
 import React, { createContext, useContext, useState } from 'react';
 
 const AuthContext = createContext();
@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
 
   const signInWithEmployeeId = (employeeId) => {
     setUser({ employeeId });
-    // You can also store user information in local storage for persistence
+    
     localStorage.setItem('user', JSON.stringify({ employeeId }));
   };
 

@@ -1,4 +1,4 @@
-// Home.js
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ChallengeList from './ChallengeList';
@@ -12,7 +12,7 @@ function Home() {
         Add Challenge +
       </Link>
 
-      {/* Challenge List Component */}
+
       <ChallengeList />
     </div>
   );

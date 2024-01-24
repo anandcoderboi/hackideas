@@ -1,4 +1,4 @@
-// ChallengeList.js
+
 import React, { useState, useEffect } from "react";
 import ChallengeItem from "./ChallengeItem";
 import { useChallengeContext } from "../context/ChallengeContext";
@@ -6,8 +6,8 @@ import { useChallengeContext } from "../context/ChallengeContext";
 function ChallengeList() {
   const { challenges, updateChallenges } = useChallengeContext();
   const [sortedChallenges, setSortedChallenges] = useState([...challenges]);
-  const [sortOrder, setSortOrder] = useState("desc"); // 'asc' for ascending, 'desc' for descending
-  const [sortField, setSortField] = useState("createdAt"); // Default sorting field is 'createdAt'
+  const [sortOrder, setSortOrder] = useState("desc"); 
+  const [sortField, setSortField] = useState("createdAt"); 
 
   useEffect(() => {
     sortChallenges();
